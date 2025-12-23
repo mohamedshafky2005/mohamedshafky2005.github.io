@@ -1,88 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio | IT Student</title>
+  <title>Mohamed Shafky | IT Student</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <h1>Your Name</h1>
-    <p>IT Undergraduate | Aspiring Software Engineer</p>
-  </header>
+  <!-- NAVBAR -->
+  <nav>
+    <h2 class="logo">Shafky M K M</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Mohamed Shafky</span></h1>
+      <h3>IT Undergraduate | Aspiring Software Engineer</h3>
+      <p>I build modern web applications and REST APIs.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/profile.jpg" alt="Mohamed Shafky">
+    </div>
+  </section>
 
   <!-- ABOUT -->
-  <section class="section">
+  <section id="about" class="section reveal">
     <h2>About Me</h2>
     <p>
-      I am an IT undergraduate passionate about software development and web technologies.
-      I enjoy learning new technologies and building real-world projects.
+      Motivated HND in IT student with a strong foundation in software and web application
+      development. Experienced in building
+      responsive web interfaces and full-stack
+      applications using modern technologies,
+      with hands-on exposure to frontend
+      development, backend integration, REST
+      APIs, and databases. A quick learner with
+      strong problem-solving skills, attention to
+      detail, and the ability to collaborate
+      effectively in team-based and remote
+      environments. Eager to gain real-world
+      industry experience and grow as a software
+      professional.
     </p>
   </section>
 
   <!-- SKILLS -->
-  <section class="section light">
-    <h2>Skills</h2>
-    <ul class="skills">
-      <li>Java</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>PHP</li>
-      <li>MySQL</li>
-      <li>Node.js</li>
-      <li>Git & GitHub</li>
-    </ul>
+<section id="skills" class="skills-section">
+  <h2>Skills</h2>
+
+  <ul class="skills-list">
+    <li>
+      <strong>Languages :</strong>
+      C++, Java, PHP, Python
+    </li>
+
+    <li>
+      <strong>Frameworks / Libraries :</strong>
+      Bootstrap, Node.js, JavaScript, Angular
+    </li>
+
+    <li>
+      <strong>Databases :</strong>
+      MySQL, MongoDB, phpMyAdmin
+    </li>
+
+    <li>
+      <strong>Tools :</strong>
+      VS Code, IntelliJ IDEA, Anaconda Navigator,
+      SQL Server Management Studio (SSMS),
+      IBM Rational Software Architect, WAMP Server
+    </li>
+
+    <li>
+      <strong>Other / Web Technologies :</strong>
+      REST APIs, SQL, JSON, AJAX, jQuery, HTML, CSS
+    </li>
+  </ul>
+</section>
+
+
+  <!-- EDUCATION -->
+  <section id="education" class="section reveal">
+    <h2>Education</h2>
+
+    <div class="edu-card">
+      <img src="assets/university.png" alt="University Logo">
+      <div>
+        <h3>HND in Information Technology</h3>
+        <p><strong>Institute:</strong> SLIIT City UNI</p>
+        <p><strong>Duration:</strong> 2025 Feb – Present (1st Year Completed)</p>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <img src="assets/school.jpg" alt="School Logo">
+      <div>
+        <h3>G.C.E.(Advanced Level)</h3>
+        <p><strong>School:</strong> BT/BC/Oddamavady Central College (National School)</p>
+        <p><strong>Year:</strong> 2024</p>
+      </div>
+    </div>
+
+        <div class="edu-card">
+      <img src="assets/school.jpg" alt="School Logo">
+      <div>
+        <h3>G.C.E.(Ordinary Level)</h3>
+        <p><strong>School:</strong> BT/BC/Oddamavady Central College (National School)</p>
+        <p><strong>Year:</strong> 2021</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section light reveal">
+    <h2>Certifications</h2>
+    <div class="cert-card">
+      <img src="assets/sliit.png" alt="Coursera Logo">
+      <div>
+        <h3>Certificate Programme in Introduction to AI</h3>
+        <p><strong>Institution:</strong> SLIIT UNI </p>
+        <p><strong>Issued:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cert-card">
+      <img src="assets/uom.png" alt="Coursera Logo">
+      <div>
+        <h3>Python For Beginners</h3>
+        <p><strong>Institution:</strong> CODL - University of Moratuwa</p>
+        <p><strong>Code: </strong>sxflmAEFSZ</strong></p>
+        <p><strong>Issued:</strong> 12/02/2025</p>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="assets/uom.png" alt="Coursera Logo">
+      <div>
+        <h3>Web Design For Beginners</h3>
+        <p><strong>Institution:</strong> CODL - University of Moratuwa</p>
+        <p><strong>Code: </strong>D2ydyCocoO</strong></p>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="assets/magicbit.png" alt="Coursera Logo">
+      <div>
+        <h3>IOT & Robotics</h3>
+        <p><strong>Issued By:</strong> SLT-MOBITEL (Collaborated with MAGICBIT)</p>
+        <p><strong>Completed:</strong> 31/10/2021</p>
+      </div>
+    </div>
+
   </section>
 
   <!-- PROJECTS -->
-  <section class="section">
+  <section id="projects" class="section reveal">
     <h2>Projects</h2>
 
-    <div class="project">
+    <div class="project-card">
+      <h3>Prime Tech</h3>
+      <p> Created a Fully Functional E-Commerce Web Application for
+Selling Computer Hardware Components.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS, PHP, phpMyAdmin</p>
+      <a href="#" target="_blank">GitHub</a>
+    </div>
+
+    <div class="project-card">
       <h3>NDI Registration System</h3>
-      <p>
-        A web-based system with CRUD operations and REST API integration.
-      </p>
-      <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, MongoDB</p>
-      <a href="#" target="_blank">GitHub Link</a>
+      <p>Created a full-stack NDI registration system as part of a team, implementing REST APIs and a responsive Bootstrap UI.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JQUERY, BOOTSTRAP, NODE.JS, MONGODB</p>
+      <a href="https://github.com/mohamedshafky2005/NDI-Registration-System" target="_blank">GitHub</a>
     </div>
 
-    <div class="project">
-      <h3>Pet Shop Website</h3>
-      <p>
-        An online pet shop with admin panel, product management and cart system.
-      </p>
-      <p><strong>Technologies:</strong> PHP, MySQL, HTML, CSS</p>
-      <a href="#" target="_blank">GitHub Link</a>
+    <div class="project-card">
+      <h3>Medicare Plus</h3>
+      <p>Contributed to a team-built Java Swing clinic management system by designing the user interface, setting up the SQLite database, and
+developing the full Patient Management module
+(CRUD operations and data integration).</p>
+      <p><strong>Tech:</strong> JAVA, SWING, JDBC, SQLITE</p>
+      <a href="https://github.com/mohamedshafky2005/Medicare-Plus" target="_blank">GitHub</a>
     </div>
-
-  </section>
-
-  <!-- EDUCATION -->
-  <section class="section light">
-    <h2>Education</h2>
-    <p>
-      <strong>BSc in Information Technology</strong><br>
-      Your University / Institute Name<br>
-      Year: 2022 – Present
-    </p>
   </section>
 
   <!-- CONTACT -->
-  <section class="section">
+  <section id="contact" class="section light reveal">
     <h2>Contact</h2>
-    <p>Email: yourname@email.com</p>
-    <p>GitHub: <a href="#" target="_blank">github.com/yourusername</a></p>
-    <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourname</a></p>
+    <p>Email: mohamedshafky2005@email.com</p>
+    <p>
+      GitHub:
+      <a href="https://github.com/mohamedshafky2005" target="_blank">
+        mohamedshafky2005
+      </a>
+    </p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mk-mohamed-shafky-b08677330/" target="_blank">Mohamed Shafky</a></p>
   </section>
 
-  <!-- FOOTER -->
   <footer>
-    <p>© 2025 Your Name | IT Student</p>
+    © 2025 Mohamed Shafky | IT Student
   </footer>
 
+  <script src="script.js"></script>
 </body>
+
 </html>
